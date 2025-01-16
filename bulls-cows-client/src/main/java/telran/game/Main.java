@@ -1,5 +1,6 @@
 package telran.game;
 
+
 import telran.net.NetworkClient;
 import telran.net.TcpClient;
 import telran.queries.service.BullsCowsService;
@@ -11,7 +12,7 @@ import telran.view.StandardInputOutput;
 public class Main {
     private static final String HOST = "localhost";
     //private static final String HOST = "16.171.22.97";
-    private static final int PORT = 4000;
+    private static final int PORT = 5000;
 
     public static void main(String[] args) {
         InputOutput io = new StandardInputOutput();
